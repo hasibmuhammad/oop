@@ -1,5 +1,5 @@
 <?php
-class Human{
+class HHuman{
     public $food;
     public $name;
     public $age;
@@ -29,7 +29,7 @@ class Cat{
     }
 }
 
-$human = new Human("Shuvo",21);
+$human = new HHuman("Shuvo",21);
 $human->sayHi();
  
 
