@@ -34,8 +34,9 @@ class Human
         echo "HI from {$this->name}\n";
     }
 
-    protected function addTitle($title){
-        $this->name = $title . " ". $this->name;
+    protected function addTitle($title)
+    {
+        $this->name = $title . " " . $this->name;
     }
 }
 
