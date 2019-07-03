@@ -1,4 +1,5 @@
 <?php
+
 class Shape
 {
     protected $name;
@@ -55,7 +56,6 @@ class Rectangle extends Shape
         $this->area = ($this->a * $this->b);
     }
 
-
 }
-$r = new Rectangle(2,4);
+$r = new Rectangle(2, 4);
 $r->getArea();
