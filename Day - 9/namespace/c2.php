@@ -1,9 +1,11 @@
 <?php 
-namespace Projects\MotorCycles;
-class Motor
+
+namespace Project\Planets;
+
+class Earth extends \Project\Shuvo\Planets\Planets
 {
     public function getName()
     {
-        echo "FZ";
+        echo "Earth";
     }
 }

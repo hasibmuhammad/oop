@@ -1,10 +1,11 @@
-<?php
-namespace Projects;
+<?php 
 
-class Bike
+namespace Project\Shuvo\Planets;
+
+class Planets
 {
     public function getName()
     {
-        echo "KPR";
+        echo "Planet";
     }
 }
